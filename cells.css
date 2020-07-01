@@ -1,0 +1,207 @@
+@keyframes pulse{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+  
+}
+
+div.cell {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  border: none;
+  outline: none;
+}
+div.cell.outline{
+  outline: none;
+}
+
+div.cell.orange {
+  top: 50%;
+  left: 90%;
+}
+
+div.cell.red {
+  top: 85%;
+  left: 35%;
+}
+
+.cell.purple.outline{
+  top: 10%;
+  left: 45%;
+}
+
+.cell.purple.outline.two{
+  top: 72%;
+  left: 70%;
+}
+
+.cell.red.outline{
+  top:  23%;
+  left: 70%;
+}
+
+.cell.orange.outline{
+  top: 70%;
+  left: 10%;
+}
+
+
+div.cell div{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  
+  animation: pulse 3s infinite;
+  
+  transform: translate(-50%, -50%);
+}
+
+
+div.cell.outline div{
+  border: 2px solid;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+
+div.sm-dot{
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  
+  background-color: var(--tertiary);
+  
+
+}
+
+div.sm-dot.r1{
+  top: 45%;
+  left: 10%;
+}
+
+div.sm-dot.purple{
+  top: 80%;
+  left: 25%;
+}
+
+div.sm-dot.p2{
+  top: 5%;
+  left: 88%;
+}
+
+div.sm-dot.p3{
+  top: 55%;
+  left: 72%;
+}
+
+div.sm-dot.r4{
+      top: 7%;
+    left: 30%;
+}
+
+div.sm-dot.o2{
+  top: 80%;
+  left: 56%;
+}
+div.sm-dot.o3{
+  top: 10%;
+  left: 67%;
+}
+div.sm-dot.o3{
+  top: 50%;
+  left: 27%;
+}
+div.sm-dot.r2{
+  top: 85%;
+  left: 85%;
+}
+div.sm-dot.r3{
+  top: 30%;
+  left: 95%;
+}
+
+.about .sm-dot{
+  width: 13px;
+  height: 13px;
+}
+
+.about .sm-dot.red{
+  top: 50%;
+  left: 3%;
+}
+.about .sm-dot.orange{
+  top: 35%;
+  left: 6%;
+}
+.about .sm-dot.purple{
+  top: 20%;
+  left: 9%;
+}
+.about .sm-dot.o2{
+  top: 7%;
+  left: 13%;
+}
+.about .sm-dot.r2{
+  top: 13%;
+  left: 20%;
+}
+.about .sm-dot.p2{
+  top: 5%;
+  left: 30%;
+}
+
+
+
+
+.action .sm-dot.purple{
+  top: 20%;
+  left: 7%;
+}
+.action .sm-dot.orange{
+  top: 10%;
+  left: 15%;
+}
+.action .sm-dot.red{
+  top: 21%;
+  left: 22%;
+}
+.action .sm-dot.o2{
+  top: 10%;
+  left: 75%;
+}
+.action .sm-dot.r2{
+  top: 20%;
+  left: 85%;
+}
+.action .sm-dot.p2{
+  top: 8%;
+  left: 92%;
+}
+.action .sm-dot.o3{
+  top: 30%;
+  left: 93%;
+}
+.action .sm-dot.r3{
+  top: 45%;
+  left: 96%;
+}
+

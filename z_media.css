@@ -1,0 +1,164 @@
+@media (max-width: 420px) {
+  div.cell div {
+    width: 0;
+    height: 0;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  div.cell.outline div {
+    outline: none;
+    border: none;
+  }
+
+  div.cell {
+    width: 0;
+    height: 0;
+  }
+
+  div.sm-dot.o1 {
+    top: 15%;
+    left: 5%;
+  }
+  div.sm-dot.o4 {
+    display: none;
+  }
+
+  div.sm-dot.purple {
+    top: 77%;
+    left: 12%;
+  }
+
+  div.sm-dot.o2 {
+    top: 87%;
+    left: 48%;
+  }
+
+  div.sm-dot.p3 {
+    left: 84%;
+    top: 58%;
+  }
+  
+   div.sm-dot.p2 {
+    top: 3%;
+    left: 48%;
+  } 
+  
+
+  div.sm-dot.r3 {
+    top: 6%;
+    left: 47%;
+    display: none;
+  }
+   div.sm-dot.r2 {
+    top: 77%;
+    left: 80%;
+  }
+  div.sm-dot.r4{
+    display: none;
+  }
+
+  div.sm-dot.o3 {
+    top: 15%;
+    left: 87%;
+  }
+  div.sm-dot.r1 {
+    top: 55%;
+    left: 7%;
+  }
+
+  .about div.sm-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+
+  h1 {
+    font-size: 28px !important;
+  }
+  .tagline {
+    font-size: 30px !important;
+  }
+
+  section {
+    padding: 20px 10px 20px 10px;
+    overflow: hidden;
+  }
+  a.button {
+    padding: 5px 10px;
+  }
+  .title-block {
+    padding-top: 15px;
+    margin-bottom: 50px;
+  }
+
+  .underline {
+    width: 70%;
+  }
+
+  .about-content {
+    flex-direction: column !important;
+  }
+
+  .point {
+    margin-bottom: 70px;
+  }
+  .about-title {
+    padding-top: 3rem;
+  }
+
+
+  .marquee-stage a img {
+    width: 140px;
+  }
+  .marquee-frame {
+    padding: 15px 0 10px 0;
+    margin-bottom: 70px;
+    margin-top: 0px;
+  }
+
+
+  .form {
+    width: 80%;
+    padding-bottom: 50px;
+  }
+  input.email {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    font-size: 16px;
+  }
+  input.email-style {
+    font-size: 16px;
+  }
+
+  .sign-up {
+    font-size: 16px;
+    padding: 0 2px 0 2px;
+  }
+
+  .about .sm-dot.purple {
+    top: 23%;
+    left: 4%;
+  }
+  .about .sm-dot.orange {
+    top: 31%;
+    left: 90%;
+  }
+  .about .sm-dot.red {
+    top: 41%;
+    left: 10%;
+  }
+  .about .sm-dot.r2 {
+    top: 12%;
+    left: 15%;
+  }
+  .about .sm-dot.p2 {
+    top: 10%;
+    left: 88%;
+  }
+  .about .sm-dot.o2 {
+    top: 2%;
+    left: 12%;
+  }
+}

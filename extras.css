@@ -1,0 +1,22 @@
+.blow-up-circle{
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  
+  background-color: var(--red);
+  
+  position: absolute;
+  
+  transition: all 0.5s;
+}
+
+/* scrolling only runs inside a media query! Phone scrolling makes this get a bit jacked */
+@media(min-width:640px){
+  .sm-dot, p, .circle {
+    
+  }
+  
+  
+  
+  
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
+
+@font-face{
+	font-family: Gilbert Bold;
+  font-weight: 400;
+  src: url(gilbert-bold.otf);
+}
+
+@font-face{
+	font-family: Gravity;
+  font-weight: 400;
+  src: url(gravity-regular.otf);
+}
+@font-face{
+	font-family: Gravity;
+  font-weight: 800;
+  src: url(gravity-bold.otf);
+}

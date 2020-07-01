@@ -1,0 +1,51 @@
+:root{
+  --purple: #7A19A6;
+  --primary: #EF4D8B;
+  --secondary: #08A9CC;
+  --tertiary: #FBAF17;
+  --purple-rgba:rgba(122,25,166,0);
+  --red: #FF5050;
+  --red-rgba: rgba(255,80,80,0);
+  --orange: #FFAF08;
+  --font-primary: Gravity;
+  --title-font: Gilbert Bold;
+  --grey: #D6D6D6;
+  --col-width: 270px;
+  --team-width:150px;
+}
+
+
+
+.purple{
+  color: var(--primary);
+}
+.orange{
+  color: var(--tertiary);
+}
+.red{
+  color: var(--secondary);
+}
+.grey{
+  color: var(--grey);
+}
+
+.purple .circle{
+  border: 2px solid var(--primary);
+}
+
+.red .circle{
+  border: 2px solid var(--secondary);
+}
+
+.cell.purple div, div.sm-dot.purple{
+  background-color: var(--primary);
+}
+
+.cell.red div, div.sm-dot.red{
+  background-color: var(--secondary);
+}
+
+.cell.orange div, div.sm-dot.orange{
+  background-color: var(--tertiary);
+}
+

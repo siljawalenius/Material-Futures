@@ -1,0 +1,52 @@
+@media(max-width:420px){
+  div.cell div{
+    width: 0;
+    height: 0;
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+  }
+  div.cell.outline div{
+    outline: none;
+    border: none;
+  }
+  
+  div.cell{
+    width: 0;
+    height: 0;
+  }
+  
+  .about div.sm-dot{
+    width: 10px;
+    height: 10px;
+  }
+  
+  nav a{
+    padding: 0 0.4rem 0 0.4rem;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  h1{
+    font-size: 25px !important;
+  }
+  .tagline{
+    font-size: 30px !important; 
+  }
+  
+  section{
+    padding: 20px 10px 20px 10px;
+  }
+  button{
+    padding: 5px 10px;
+  }
+  .title-block{
+    padding-top: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .about-content{
+    flex-direction: column !important;
+  }
+}
